@@ -1,0 +1,23 @@
+학습 신경망 구조는 완성된 상태이나 
+아직 데이터의 수집이 부족하여 높은 정확도에 도달하는 모델은 완성하지 못하였다. 
+입력 데이터 값인 요가 자세 이미지에 대한 전처리와 그 중 양질의 Training 데이터 검수 및 취합을 통하여 Training 데이터 중 30% 가량을 Test set으로 배치한 뒤 학습 테스트를 진행하고 신경망 구조 내, 은닉층 가중치의 수정으로 정확도 높은 모델을 구한다.
+Complie단계에서 손실함수는 다중분류 결과값을 얻기 위해 Categorical_Crossentropy 사용하였고
+테스트에 사용될 optimizer의 종류는 ‘배치 경사 하강법(batch GD)’, ‘확률적 경사 하강법(SGD)’,
+adam(RMSprop+Momentum)을 사용할 예정이다.
+
+
+
+
+
+카메라는 카메라 api를 사용하여 구현했고 정면 기능은 구현했지만 아직 저희 앱의 레이아웃을 구현하지 못했습니다. 카카오 오븐으로 UI 설계한 디자인을 참고 하여 뷰를 만들고 거기에 맞는 라이브러리를 다운 받을것입니다. 페이지 구현은 activity로 하고 버튼과 onClickListener로 서로 연결하여 페이지 이동하게 만든 다음, 다음 페이지로 넘기는것은 View Pager로 구현할것입니다. Fragment를 이용하여 창이 여러 개인 UI를 빌드하여 하나의 fragment에 여러 activity를 재사용할수 있도록 할것입니다. 남은 기간동안 UI 디자인과 필요한 레이아웃을 만들고 보완할 예정입니다. 
+
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>hello</title>
+	</head>
+	<body>
+		Hello, world!
+	</body>
+</html>
